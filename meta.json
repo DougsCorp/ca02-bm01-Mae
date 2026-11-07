@@ -1,4 +1,4 @@
-﻿{
+{
     "ca_id":  "ca02",
     "bm_id":  "bm01",
     "operator":  "Mae",
@@ -10,10 +10,14 @@
     "pages":  [
                   {
                       "path":  "/vsl1/",
+                      "template":  "Quiz-ps-CogniClear",
+                      "type":  "ps"
+                  },
+                  {
+                      "path":  "/vsl1/pv-cognC/",
                       "template":  "CBS-vsl-CogniClear",
                       "type":  "vsl"
                   }
               ],
     "status":  "deployed"
 }
-
